@@ -16,6 +16,13 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".ActivityForImplicitIntent">
+            <intent-filter>
+                <action android:name="com.example.romanm.a1.action.implicit" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ActivityForExplicitIntent"></activity>
     </application>
 
 </manifest>
